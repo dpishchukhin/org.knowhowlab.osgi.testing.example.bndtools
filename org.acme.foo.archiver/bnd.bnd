@@ -10,7 +10,7 @@
 javac.source: 1.8
 javac.target: 1.8
 
-Bundle-Version: 0.0.0.${tstamp}
+Bundle-Version: 1.0.0.${tstamp}
 Private-Package: org.acme.foo.archiver
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=org.acme.foo.archiver)',\
