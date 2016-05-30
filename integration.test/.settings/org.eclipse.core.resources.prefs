@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
-encoding//src/integration/test/ExampleIntegrationTest.java=UTF-8
+encoding//src/integration/test/EventsIntegrationTest.java=UTF-8
+encoding//src/integration/test/ProviderIntegrationTest.java=UTF-8
 encoding/bnd.bnd=UTF-8
