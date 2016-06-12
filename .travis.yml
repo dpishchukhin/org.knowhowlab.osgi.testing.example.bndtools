@@ -6,7 +6,7 @@ jdk:
   - oraclejdk8
 
 install:
-  - "sh ./gradlew --version"
+  - "/bin/bash ./gradlew --version"
 
 script:
-  - "sh ./gradlew --continue"
+  - "/bin/bash ./gradlew --continue"
