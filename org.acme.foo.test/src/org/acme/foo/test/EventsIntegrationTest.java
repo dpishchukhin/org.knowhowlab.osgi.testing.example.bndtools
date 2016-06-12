@@ -1,9 +1,5 @@
 package org.acme.foo.test;
 
-import java.util.HashMap;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-
 import org.acme.foo.api.WelcomeService;
 import org.junit.After;
 import org.junit.Test;
@@ -18,6 +14,10 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.FrameworkUtil;
 import org.osgi.framework.InvalidSyntaxException;
+
+import java.util.HashMap;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 @RunWith(MockitoJUnitRunner.class)
 public class EventsIntegrationTest {

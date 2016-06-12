@@ -1,8 +1,5 @@
 package org.acme.foo.test;
 
-import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
-
 import org.acme.foo.api.WelcomeService;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
@@ -20,6 +17,9 @@ import org.osgi.framework.FrameworkUtil;
 import org.osgi.framework.InvalidSyntaxException;
 import org.osgi.service.component.runtime.ServiceComponentRuntime;
 import org.osgi.service.component.runtime.dto.ComponentDescriptionDTO;
+
+import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ProviderIntegrationTest {
