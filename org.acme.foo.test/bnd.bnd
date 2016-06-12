@@ -42,7 +42,7 @@ javac.target: 1.8
 	org.objenesis;version='[2.2.0,2.2.1)'
 
 Bundle-Version: 0.0.0.${tstamp}
-Private-Package: integration.test
+Private-Package: org.acme.foo.test
 
 # Needed for Mockito's mocking to work
 -runsystempackages.objenesis: sun.misc,sun.reflect

@@ -1,4 +1,4 @@
-package integration.test;
+package org.acme.foo.test;
 
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
