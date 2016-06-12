@@ -30,9 +30,8 @@ public class ArchiverIntegrationTest {
 		
 		ArchiverService as = ServiceUtils.getService(bc, ArchiverService.class);
 
-		TimeUnit.MICROSECONDS.sleep(100);
+		TimeUnit.MICROSECONDS.sleep(1000);
 		
 		Assert.assertThat(as.getLastName(), CoreMatchers.is("Sherlock"));
-		
 	}
 }
